@@ -95,7 +95,7 @@ function center2(data){
             color: ['#8A3310', '#C64918', '#E55B25', '#F2AD92', '#F9DCD1']
         },
         series: [{
-            name: '累计确诊人数',
+            name: 'Cumulative number of confirmed',
             type: 'map',
             mapType: 'china',
             roam: false, // 禁用拖动和缩放
@@ -141,7 +141,7 @@ function right1(data){
 
     var option = {
         title: {
-            text: "全国确诊省市TOP5",
+            text: "Top 5 confirmed provinces",
             textStyle: {
                 color: 'white',
             },
@@ -212,7 +212,7 @@ function right2(data){
 
     var option = {
         title: {
-            text: '境外输入省市TOP5',
+            text: 'Top 5 imported provinces',
             left: 'center'
         },
         tooltip: {
@@ -226,7 +226,7 @@ function right2(data){
         },
         series: [
             {
-                name: '省市名称',
+                name: 'Name of provinces',
                 type: 'pie',
                 radius: '55%',
                 center: ['50%', '60%'],
@@ -285,7 +285,7 @@ function left1(data){
 
     var option = {
         title: {
-            text: "全国累计趋势",
+            text: "Cumulative trend",
             textStyle: {
                 color: 'white',
             },
@@ -387,7 +387,7 @@ function left2(data){
 
     var option = {
         title: {
-            text: '全国新增趋势',
+            text: 'Increase Trend',
             textStyle: {
                 color: 'white',
             },
