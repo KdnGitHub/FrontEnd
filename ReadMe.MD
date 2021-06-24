@@ -4,4 +4,6 @@
 1.这是关于中国疫情实时监控的大屏项目, 主要采用HTML, CSS和Echart图表.    
 2.本项目有三个文件(CSS, JS, index.html). 其中CSS文件中放置的是展示页面的样式. JS文件夹中放置的是导入中国地图的Echart的文件和jQuery的文件.
 
+Go to website -> : https://kdngithub.github.io/FrontEnd/
+
 ![image](https://github.com/KdnGitHub/FrontEnd/blob/master/image/Monitoring%20Epidemic.png)
